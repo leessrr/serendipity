@@ -82,22 +82,22 @@
 		  <nav>
 			<ul>
 			  <li>
-				<a href="#"><i class="fa fa-user item-icon"></i>My Profile</a>
+				<a href="${pageContext.request.contextPath}/mypage/my_page.htm"><i class="fa fa-user item-icon"></i>My Profile</a>
 			  </li>
 			  <li>
-				<a href="#"><i class="fa fa-gears item-icon"></i>Update Profile</a>
+				<a href="${pageContext.request.contextPath}/mypage/my_page_modifyform.htm"><i class="fa fa-gears item-icon"></i>Update Profile</a>
 			  </li>
 			  <li>
-				<a href="#"><i class="fa fa-mail-reply item-icon"></i>받은 요청</a>
+				<a href="${pageContext.request.contextPath}/mypage/my_page_accept_history.htm"><i class="fa fa-mail-reply item-icon"></i>받은 요청</a>
 			  </li>
 			  <li class="active">
-				<a href="#"><i class="fa fa-mail-forward item-icon"></i>보낸 요청</a>
+				<a href="${pageContext.request.contextPath}/mypage/my_page_send_history.htm"><i class="fa fa-mail-forward item-icon"></i>보낸 요청</a>
 			  </li>
 			  <li>
-				<a href="#"><i class="fa fa-bell-o item-icon"></i>Etc</a>
+				<a href="${pageContext.request.contextPath}/mypage/my_page_notification.htm"><i class="fa fa-bell-o item-icon"></i>Etc</a>
 			  </li>
 			  <li>
-				<a href="#"><i class="fa fa-times item-icon"></i>Withdraw from Serendipity</a>
+				<a href="${pageContext.request.contextPath}/mypage/my_page_withdraw.htm"><i class="fa fa-times item-icon"></i>Withdraw from Serendipity</a>
 			  </li>
 			</ul>
 		  </nav>

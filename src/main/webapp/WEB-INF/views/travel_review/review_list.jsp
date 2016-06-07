@@ -56,7 +56,7 @@
 				<jsp:include page="../inc/header.jsp"></jsp:include>
 				<div class="clearfix"></div>
 				
-				<jsp:include page="inc/traveler_writeform_element.jsp"></jsp:include>
+				<jsp:include page="inc/travel_review_list.jsp"></jsp:include>
 			</div><!-- .page-box-content -->
 		</div><!-- .page-box -->
 		
@@ -69,7 +69,7 @@
 		<!-- 각종 Javascript -->
 		
 		<!--[if (!IE)|(gt IE 8)]><!-->
-		<script src="./resources/js/jquery-2.1.3.min.js"></script>
+		<script src=".././resources/js/jquery-2.1.3.min.js"></script>
 		<!--<![endif]-->
 		
 		<!--[if lte IE 8]>

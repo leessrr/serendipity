@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 	
-<script src="../js/jquery-2.1.3.min.js"></script>
+<script src=".././resources/js/jquery-2.1.3.min.js"></script>
 <script type="text/javascript">
 $(function() {
 	var index=1;
@@ -26,7 +26,7 @@ $(function() {
 <section id="main">
 	<header class="page-header">
 		<div class="container">
-			<h1 class="title">여행자구함</h1>
+			<h1 class="title">가이드가 여행자를 구하기 위해 글을 올리는 곳</h1>
 		</div>
 	</header>
 
@@ -39,9 +39,11 @@ $(function() {
 						<td colspan="5"><input class="form-control" type="text"></td>
 					</tr>
 					<tr>
+						<td>인원수</td>
+						<td><input class="form-control" type="text"></td>
 						<td>날짜</td>
 						<td><input class="form-control" type="text"></td>
-						<td>지불할 가격</td>
+						<td>가격</td>
 						<td><input class="form-control" type="text"></td>
 					</tr>
 					<tr>

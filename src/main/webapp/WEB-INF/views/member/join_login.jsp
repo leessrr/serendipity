@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<!-- 가이드가 여행자를 모집하는 글을 올리는 곳 -->
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -54,11 +54,9 @@
 				<jsp:include page="../inc/top-box.jsp"></jsp:include>
 				<!-- 상단 메뉴 -->
 				<jsp:include page="../inc/header.jsp"></jsp:include>
-				
 				<div class="clearfix"></div>
 				
-				<jsp:include page="inc/catalog_grid_view_4columns-guide.jsp"></jsp:include>
-				
+				<jsp:include page="inc/login_join.jsp"></jsp:include>
 			</div><!-- .page-box-content -->
 		</div><!-- .page-box -->
 		
@@ -71,7 +69,7 @@
 		<!-- 각종 Javascript -->
 		
 		<!--[if (!IE)|(gt IE 8)]><!-->
-		<script src="./resources/js/jquery-2.1.3.min.js"></script>
+		<script src=".././resources/js/jquery-2.1.3.min.js"></script>
 		<!--<![endif]-->
 		
 		<!--[if lte IE 8]>

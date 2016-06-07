@@ -12,8 +12,8 @@
 		  </div>
 		  <p>Follow us in social media</p>
 		  <div class="social-list">
-			<a class="icon rounded icon-facebook" href="#"><i class="fa fa-facebook"></i></a>
-			<a class="icon rounded icon-twitter" href="#"><i class="fa fa-twitter"></i></a>
+			<a class="icon rounded icon-facebook" href="https://www.facebook.com/serendipity112th"><i class="fa fa-facebook"></i></a>
+			<a class="icon rounded icon-instagram" href="https://www.instagram.com/daekyu_kang"><i class="fa fa-instagram"></i></a>
 			<a class="icon rounded icon-google" href="#"><i class="fa fa-google"></i></a>
 			<a class="icon rounded icon-linkedin" href="#"><i class="fa fa-linkedin"></i></a>
 		  </div>

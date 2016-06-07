@@ -23,7 +23,7 @@
 			  <ul class="nav navbar-nav navbar-right">
 				
 				<li><a href="#">My Account<span class="count">2</span></a></li>
-				<li><a href="#">Log in / Join us <i class="fa fa-lock after"></i></a></li>
+				<li><a href="${pageContext.request.contextPath}/member/join_login.htm">Log in / Join us <i class="fa fa-lock after"></i></a></li>
 			  </ul>
 			</nav>
 		  </div>

@@ -1,13 +1,26 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 	<header class="header header-two">
   <div class="header-wrapper">
 	<div class="container">
 	  <div class="row">
 		<div class="col-xs-6 col-md-2 col-lg-3 logo-box">
 		  <div class="logo">
-				<a href="index.html">
-					<img src="./resources/img/logo.svg" class="logo-img" alt="">
+				<a href="${pageContext.request.contextPath}/index.htm">
+					<c:if test="">
+						<img src=".././resources/img/logo.svg" class="logo-img" alt="">
+					</c:if>
+					
+					<c:choose>
+						<c:when test="${index == 'index'}">
+							<img src="./resources/img/logo.svg" class="logo-img" alt="">
+						</c:when>
+						
+						<c:otherwise>
+							<img src=".././resources/img/logo.svg" class="logo-img" alt="">
+						</c:otherwise>
+					</c:choose>
+					
 				</a>
 		  </div>
 		</div><!-- .logo-box -->
@@ -37,19 +50,19 @@
 					</li>
 					
 					<li class="item-danger item-bg text-danger">
-					  <a href="#">가이드구함</a>
+					  <a href="${pageContext.request.contextPath}/board/traveler_list.htm">가이드구함</a>
 					</li>
 					
 					<li class="item-danger item-bg text-danger">
-					  <a href="#">여행자구함<span class="item-new">New</span></a>
+					  <a href="${pageContext.request.contextPath}/board/guide_list.htm">여행자구함<span class="item-new">New</span></a>
 					</li>
 					
 					<li class="item-danger item-bg text-danger">
-					  <a href="#">여행후기</a>
+					  <a href="${pageContext.request.contextPath}/travel_review/review_list.htm">여행후기</a>
 					</li>
 					
 					<li class="item-danger item-bg text-danger">
-					  <a href="#">마이페이지</a>
+					  <a href="${pageContext.request.contextPath}/mypage/my_page.htm">마이페이지</a>
 					</li>
 				  </ul>
 				</nav>

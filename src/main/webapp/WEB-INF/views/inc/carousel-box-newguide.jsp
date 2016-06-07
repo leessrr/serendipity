@@ -2,12 +2,12 @@
 
 <!-- 가이드구함 새 글을 보여주는 부분 -->
 <div class="full-width-box bottom-padding cm-padding-bottom-36">
-	  <div class="fwb-bg fwb-fixed band-5"><div class="overlay"></div></div>
+	  <div class="fwb-bg fwb-fixed band-5"><div></div></div>
 	  
 	  <div class="container">
 		<div class="title-box title-white">
 			<a href="#" class="btn">More <span class="glyphicon glyphicon-arrow-right"></span></a>
-			<h1 class="title no-top-padding">여행자가 필요해~~(가이드가 여행자를 모집하기 위해 글을 올리는 곳)</h1>
+			<h1 class="title no-top-padding" style="color: black;">여행자가 필요해~~</h1>
 		</div>
 		
 		<div class="row text-center">

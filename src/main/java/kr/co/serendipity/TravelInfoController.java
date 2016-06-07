@@ -1,3 +1,10 @@
+/*
+ * @Class : TravelInfoController
+ * @Date : 16.06.07
+ * @Author : 강대규
+ * @Desc : 여행정보를 보여주는 컨트롤러
+ */
+
 package kr.co.serendipity;
 
 import org.springframework.stereotype.Controller;

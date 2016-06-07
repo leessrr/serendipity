@@ -69,7 +69,7 @@
 		<!-- 각종 Javascript -->
 		
 		<!--[if (!IE)|(gt IE 8)]><!-->
-		<script src="./resources/js/jquery-2.1.3.min.js"></script>
+		<script src=".././resources/js/jquery-2.1.3.min.js"></script>
 		<!--<![endif]-->
 		
 		<!--[if lte IE 8]>

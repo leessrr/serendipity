@@ -667,7 +667,7 @@
 			<li><a href="#">9</a></li>
 			<li><a href="#"><i class="fa fa-angle-right"></i></a></li>
 		  </ul>
-		  <a href="#" class="btn btn-default">글작성<span class="glyphicon glyphicon-arrow-right"></span></a>
+		  <a href="${pageContext.request.contextPath}/board/traveler_writeform.htm" class="btn btn-default">글작성<span class="glyphicon glyphicon-arrow-right"></span></a>
 		</div><!-- .pagination-box -->
       </div><!-- .content -->
       

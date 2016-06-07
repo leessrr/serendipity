@@ -26,7 +26,7 @@ $(function() {
 <section id="main">
 	<header class="page-header">
 		<div class="container">
-			<h1 class="title">가이드구함</h1>
+			<h1 class="title">여행자가 가이드를 구하기 위해 글 작성하는 곳</h1>
 		</div>
 	</header>
 
@@ -39,11 +39,9 @@ $(function() {
 						<td colspan="5"><input class="form-control" type="text"></td>
 					</tr>
 					<tr>
-						<td>인원수</td>
-						<td><input class="form-control" type="text"></td>
 						<td>날짜</td>
 						<td><input class="form-control" type="text"></td>
-						<td>가격</td>
+						<td>지불할 가격</td>
 						<td><input class="form-control" type="text"></td>
 					</tr>
 					<tr>
